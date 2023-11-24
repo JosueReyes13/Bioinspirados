@@ -55,7 +55,7 @@ def calcular_probabilidad(hormiga, ciudad_actual, ciudades_no_visitadas):
 
     return probabilidad
 
-# Ciclo principal del ACO (Iteración)
+# Ciclo principal del algoritmo (Iteración)
 for iteracion in range(iteraciones):
     rutas_hormigas = []  # Almacena las rutas de todas las hormigas en esta iteración
 
